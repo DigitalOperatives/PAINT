@@ -1,7 +1,7 @@
 # PAINT
 ETW version of PAINT (Process Attribution In Network Traffic) 
 
-If you just want to download and use paint, go here:  www.digitaloperatives.com/PAINT
+If you just want to download and use PAINT, go here:  www.digitaloperatives.com/PAINT
 
 What is PAINT?
 
