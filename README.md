@@ -21,9 +21,13 @@ Limitations
 PAINT was a research project and is currently in Beta stage. It may contain usability, feature, and performance limitations compared to polished open-source and commercial-of-the-shelf software products.
 
 Some of these limitations are:
+
 • PAINT/dumpcap does not support capture filters. Capture filters are built-in to libpcap and PAINT/dumpcap does not use libpcap.
+
 • Filters in Wireshark, both capture and display, filter by packet content. The process information introduced in PAINT is additional meta information about the packets captured and does not alter the packet content. Therefore, packets are not filterable by the PID or the process name.
+
 • While we are able to retrieve process path, it doesn’t fit in the traffic window well. Therefore we omitted the process path from display. If it’s desired, it is not difficult to modify PAINT/dumpcap to send the full process path and introduce another column in Wireshark for display.
+
 • PAINT version of Wireshark will process about 100 packets per second on a moderate modern box.
 
 We would love to hear from you on how useful PAINT has been to your research and mission, or how it might be improved. Please get in touch with us at contact@digitaloperatives.com
