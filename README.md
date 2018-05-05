@@ -1,6 +1,8 @@
 # PAINT
 ETW version of PAINT (Process Attribution In Network Traffic) 
 
+If you just want to download and use paint, go here:  www.digitaloperatives.com/PAINT
+
 What is PAINT?
 
 PAINT is a tool that works with the popular open-source tool Wireshark by identifying the originating and the consuming executable processes for each TCP/IP network packet. PAINT was a DARPA-sponsored Cyber Fast Track (CFT) project and stands for Process Attribution In Network Traffic.
